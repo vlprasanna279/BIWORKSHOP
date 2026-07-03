@@ -14,3 +14,10 @@ h1 {
 p {
     color: blue;
 }
+#nav-bar {
+    margin: 5px;
+    background-color: lightgray;
+    height: 20px;
+}
+#nav-bar {
+    text-align: center;
