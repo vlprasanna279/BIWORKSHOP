@@ -1,23 +1,73 @@
-h1 {
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color:#f2f2f2;
+}
+
+h1{
     color:red;
 }
 
-#home-intro {
-    text-align: center;
+#home-intro{
+    text-align:center;
+    border:3px solid blue;
+    padding:10px;
 }
-#home-intro {
-    border: 3px solid black;
+
+#home-intro:hover{
+    background-color:burlywood;
 }
-#home-intro:hover {
-    background-color: lightblue;
+
+#p2{
+    color:blue;
 }
-p {
-    color: blue;
+
+#nav{
+    background-color:brown;
+    text-align:center;
+    padding:10px;
 }
-#nav-bar {
-    margin: 5px;
-    background-color: lightgray;
-    height: 20px;
+
+#nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
 }
-#nav-bar {
-    text-align: center;
+
+#card{
+    width:320px;
+    margin:30px auto;
+    border:3px solid black;
+    background:white;
+    text-align:center;
+    padding:15px;
+    border-radius:10px;
+}
+
+#card-img{
+    text-align:center;
+}
+
+#img{
+    width:250px;
+    height:250px;
+}
+
+#action{
+    margin-top:15px;
+}
+
+button{
+    width:100%;
+    height:40px;
+    margin-top:10px;
+    background-color:steelblue;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:darkblue;
+}
